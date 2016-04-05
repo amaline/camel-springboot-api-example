@@ -1,0 +1,8 @@
+---
+applications:
+- name: resource
+  memory: 512M
+  instances: 1
+  host: resource
+  buildpack: java_buildpack
+  path: ./target/camel-springboot-api-example.war
